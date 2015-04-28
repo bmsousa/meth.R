@@ -25,8 +25,7 @@ aux_step03_Weight_of_Norm_matrix <-function(inMatrix, inWeight){
 }
 
 # To use with opencpu:
-# curl -L http://localhost:7414/ocpu/library/MeTH/R/run_METH_Json \
--H "Content-Type: application/json" -d '{"mBen":"[[1,2,3], [2,5,6], [3,1,1]]", "mCost":"[[1,2,3], [2,5,6], [3,1,1]]", "weiBen":"[0.5, 0.5]", "weiCost":"[0.5,0.5]"}'
+# curl -L http://localhost:7414/ocpu/library/MeTH/R/run_METH_Json -H "Content-Type: application/json" -d '{"mBen":"[[1,2,3], [2,5,6], [3,1,1]]", "mCost":"[[1,2,3], [2,5,6], [3,1,1]]", "weiBen":"[0.5, 0.5]", "weiCost":"[0.5,0.5]"}'
 #
 # run_METH_Json('[[1,2,3], [2,5,6], [3,1,1] ]', '[[1,2,3], [2,5,6], [3,1,1] ]', '[0.5, 0.5]', '[0.5, 0.5]')
 #
