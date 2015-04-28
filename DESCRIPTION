@@ -1,0 +1,10 @@
+Package: MeTH
+Type: Package
+Title: This package provides the MeTHODICAL algorithm. It is a MADM technique for providing optimal solutions.
+Version: 1.0
+Date: 2015-04-27
+Author: Bruno Sousa
+Maintainer: Bruno Sousa <bmsousa@dei.uc.pt>
+Depends: R (>= 3.1.0)
+Description: MADM for optimal solutions.
+License: GPL (>= 2)
